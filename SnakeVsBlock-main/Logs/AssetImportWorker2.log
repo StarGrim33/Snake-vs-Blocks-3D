@@ -1,0 +1,453 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51329
+Successfully changed project path to: C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 48.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   30.0.21023.1015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001928 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.418 seconds
+Domain Reload Profiling:
+	ReloadAssembly (419ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 3934.
+Memory consumption went from 159.3 MB to 158.6 MB.
+Total: 2.702100 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.179500 ms  DeleteObjects: 0.225400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3542.348145 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(97bd7cba4bed8fa46b8689e14e27cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(97bd7cba4bed8fa46b8689e14e27cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7585d32e98e5b85389484332127d530c') in 0.210877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.773477 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(18875e4048c30a54ea8e53ec4fc9c901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(18875e4048c30a54ea8e53ec4fc9c901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17638b4fb2ce4eb3eee74e481c0aad5') in 0.000981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.059408 seconds.
+  path: Assets/Pause Menu Assets/Fonts
+  artifactKey: Guid(a7436527a81304743bbc25754d8206a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pause Menu Assets/Fonts using Guid(a7436527a81304743bbc25754d8206a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531ea9a1fcced0985b3d0a90b094f41e') in 0.001171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.133557 seconds.
+  path: Assets/Pause Menu Assets/Prefab
+  artifactKey: Guid(a29ab32dc61e4a14182980e2a56c7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pause Menu Assets/Prefab using Guid(a29ab32dc61e4a14182980e2a56c7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b488dc1820d44f596a176ec6a303d90b') in 0.001008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811402 seconds.
+  path: Assets/Pause Menu Assets/Scripts
+  artifactKey: Guid(9a9c314541b1647499d176004b350731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pause Menu Assets/Scripts using Guid(9a9c314541b1647499d176004b350731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6569d9d8ce1677794e8d99ea1d65837') in 0.001016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 507.764312 seconds.
+  path: Assets/URP
+  artifactKey: Guid(18cbc34ac8713214883595e58c6bcec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP using Guid(18cbc34ac8713214883595e58c6bcec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52d8cd751b5ff37bb449cac068edadb') in 0.001201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.023452 seconds.
+  path: Assets/UI/choose.png
+  artifactKey: Guid(f3429b7793f02364696caaa6cd55e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/choose.png using Guid(f3429b7793f02364696caaa6cd55e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aca542769a1882f92eae3b34117bc7') in 0.015621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.734053 seconds.
+  path: Assets/UI/choose.png
+  artifactKey: Guid(f3429b7793f02364696caaa6cd55e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/choose.png using Guid(f3429b7793f02364696caaa6cd55e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b392f2478fa8b1c2148a0bdf8a516624') in 0.025736 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (565ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 4001.
+Memory consumption went from 157.2 MB to 156.5 MB.
+Total: 3.999600 ms (FindLiveObjects: 0.442900 ms CreateObjectMapping: 0.330500 ms MarkObjects: 2.960500 ms  DeleteObjects: 0.265100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2234.503736 seconds.
+  path: Assets/Main menu with parallax FREE/Main menu.prefab
+  artifactKey: Guid(6f40747fa9c2b6b439dfbb5d6b8ed66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Main menu.prefab using Guid(6f40747fa9c2b6b439dfbb5d6b8ed66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7983bd20b3b94c8136f7a338bb8eaa7b') in 0.036794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.231002 seconds.
+  path: Assets/Main menu with parallax FREE
+  artifactKey: Guid(fd35ae5f8d7f7134393ac0452746e98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE using Guid(fd35ae5f8d7f7134393ac0452746e98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3612b099d4649e5f6bdc7adbf5cf4fd4') in 0.001108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.969338 seconds.
+  path: Assets/Main menu with parallax FREE/Assets
+  artifactKey: Guid(bf00fbaad4bc0ce45b42e4740f30c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets using Guid(bf00fbaad4bc0ce45b42e4740f30c5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da99faa40c8fdd823b27e4d76205a2') in 0.001002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156114 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Menu bar.png
+  artifactKey: Guid(49837be87876bc640a9dd9205f7017c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Menu bar.png using Guid(49837be87876bc640a9dd9205f7017c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587faa4c79b2023a10e74788cf541732') in 0.047644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264509 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/arrow
+  artifactKey: Guid(d9898075a393d6543b49a7df1aef3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/arrow using Guid(d9898075a393d6543b49a7df1aef3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecef98c708fdb42762c4ed49958b84ae') in 0.001189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061946 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/arrow/Flecha1.png
+  artifactKey: Guid(3631738e753e474449c0a585ca4d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/arrow/Flecha1.png using Guid(3631738e753e474449c0a585ca4d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a1739d495fb75dc7f477a1ef9b193d') in 0.009237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/arrow/Flecha4.png
+  artifactKey: Guid(f2f1874721d11bb4aa91947f880586eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/arrow/Flecha4.png using Guid(f2f1874721d11bb4aa91947f880586eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4d6a1ee4fa9c6a018767855e12b0f5') in 0.006634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/arrow/Flecha3.png
+  artifactKey: Guid(159576dd920806c4cb783b92493e5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/arrow/Flecha3.png using Guid(159576dd920806c4cb783b92493e5c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090d577fbc6a18c30a8ad7d5800ef4cd') in 0.006576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.234353 seconds.
+  path: Assets/Main menu with parallax FREE/Editor
+  artifactKey: Guid(ae7bf0664f74e4d4abc41cd4b36868ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Editor using Guid(ae7bf0664f74e4d4abc41cd4b36868ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbdc3d99ce54df37a995b8471da8655') in 0.001106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.621685 seconds.
+  path: Assets/Main menu with parallax FREE/Scripts
+  artifactKey: Guid(d8783687300205d4294eaf90f458500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Scripts using Guid(d8783687300205d4294eaf90f458500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f485c2edb0b5cbb4eab1dc7603bf2b') in 0.000967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.196803 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets
+  artifactKey: Guid(bea4062cecb98844185170e16bacd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets using Guid(bea4062cecb98844185170e16bacd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff40192c9c7c1740b08747d1886242d') in 0.001050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.798169 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Select.wav
+  artifactKey: Guid(e01ddf8f00cf9a441857b9cc04ad2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Select.wav using Guid(e01ddf8f00cf9a441857b9cc04ad2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894b508492bb1d2e2e75aa8b0249c9d') in 0.027401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.069102 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds
+  artifactKey: Guid(bbe0a6351baab3043ac4dc9e34f8262e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds using Guid(bbe0a6351baab3043ac4dc9e34f8262e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57031a4286355d3ecb6036ac6a734f58') in 0.000928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810758 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 1
+  artifactKey: Guid(141cb62056a54854c93e49deaa5a545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 1 using Guid(141cb62056a54854c93e49deaa5a545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d8ff302847df9eca34cd5f6ae4f732') in 0.001029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038928 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 1/Background 1.prefab
+  artifactKey: Guid(15fde678dfaf5a046a89c5639a90011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 1/Background 1.prefab using Guid(15fde678dfaf5a046a89c5639a90011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5383ca674cce3ba536d861ef863b03b1') in 0.005448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609441 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax
+  artifactKey: Guid(3a0bb698edef9504b865f0b71fb71534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax using Guid(3a0bb698edef9504b865f0b71fb71534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce984fbe5255667a804785e636a1df69') in 0.001076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888168 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1
+  artifactKey: Guid(8342190abc001d447aef118fe0726135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1 using Guid(8342190abc001d447aef118fe0726135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eab10868fc719f990381544974e3f1c') in 0.001039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062409 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/Parallax Scene 1.prefab
+  artifactKey: Guid(5b19944be85ba1c40890984ddd57bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/Parallax Scene 1.prefab using Guid(5b19944be85ba1c40890984ddd57bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e856ebb34b5c56d35000305a1a66fb47') in 0.007018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/skill-desc_0001_buildings.png
+  artifactKey: Guid(8c1ad0044c9c8534baf64d126c3850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/skill-desc_0001_buildings.png using Guid(8c1ad0044c9c8534baf64d126c3850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596b14842465bb84079d73d32568065c') in 0.011612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/skill-desc_0002_far-buildings.png
+  artifactKey: Guid(5cc80fc3cf5d8794191d194f9dea1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 1/skill-desc_0002_far-buildings.png using Guid(5cc80fc3cf5d8794191d194f9dea1ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5732df64f037d64b1ec3918857c458a') in 0.010912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.341329 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_02_1920 x 1080.png
+  artifactKey: Guid(8eb9fd96ddb7a804782d9c808c55c6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_02_1920 x 1080.png using Guid(8eb9fd96ddb7a804782d9c808c55c6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5209003b2f8152a620e207a754acb79b') in 0.124273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_04_1920 x 1080.png
+  artifactKey: Guid(ce5211158a1fc1e498d258a391c13212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_04_1920 x 1080.png using Guid(ce5211158a1fc1e498d258a391c13212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41978f41e6796c47dfaadaa3610dc828') in 0.093711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.409292 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_02_1920 x 1080.png
+  artifactKey: Guid(ef8bbfefc7a08744eb9166968cb49c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_02_1920 x 1080.png using Guid(ef8bbfefc7a08744eb9166968cb49c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adce2aec3c71bc69361237984df7f1f9') in 0.086085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_07_1920 x 1080.png
+  artifactKey: Guid(bd2f41ce9404b0c40820a06e22aaf413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_07_1920 x 1080.png using Guid(bd2f41ce9404b0c40820a06e22aaf413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f165c467e93d6ee4ee46e47be239b74') in 0.082582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_06_1920 x 1080.png
+  artifactKey: Guid(8d9900da167f157429dcbd3950f665ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_06_1920 x 1080.png using Guid(8d9900da167f157429dcbd3950f665ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c5302fc36d6ead1ebef7e80b7f5ecf') in 0.070931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.091837 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background/background3-720.png
+  artifactKey: Guid(5835015e86f2a424093eb8cdd28a3251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background/background3-720.png using Guid(5835015e86f2a424093eb8cdd28a3251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722b5a644a705f45708abf52f7ed2d1') in 0.080064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.495779 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 3/background3-720.png
+  artifactKey: Guid(25c04dea564d2d5428ecc32271573d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 3/background3-720.png using Guid(25c04dea564d2d5428ecc32271573d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190594cdae5961b13402d28b186031bc') in 0.094307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_04_1920 x 1080.png
+  artifactKey: Guid(9d65f3c05cafbe04796ff1c7df419443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_04_1920 x 1080.png using Guid(9d65f3c05cafbe04796ff1c7df419443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9ed5644d7cd40f468c6f2346be8851') in 0.102940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-bg.png
+  artifactKey: Guid(2bbd7266687d5c849aaade0e4d4c2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-bg.png using Guid(2bbd7266687d5c849aaade0e4d4c2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9984b861b0738cc11c58d1dfda156ba0') in 0.013855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_08_1920 x 1080.png
+  artifactKey: Guid(6f5215f2420df8e429289bf3cb5acbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_08_1920 x 1080.png using Guid(6f5215f2420df8e429289bf3cb5acbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af7cc70f123d054b2d45bf013eab081') in 0.084660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-montain-far.png
+  artifactKey: Guid(4295572afc10ee144bc30c9748589960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-montain-far.png using Guid(4295572afc10ee144bc30c9748589960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de71fb92c40cdf013521ccbb37e2e25e') in 0.009067 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

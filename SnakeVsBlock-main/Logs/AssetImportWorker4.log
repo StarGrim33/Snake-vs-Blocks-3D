@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51329
+Successfully changed project path to: C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 36.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Влад и Аня/Desktop/SnakeVsBlock-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   30.0.21023.1015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001758 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (400ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (286ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 3942.
+Memory consumption went from 159.6 MB to 158.9 MB.
+Total: 2.993100 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.474800 ms  DeleteObjects: 0.232800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6409.145864 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2
+  artifactKey: Guid(5d6f2c57eeb5f754dbaf5f25c9d986d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2 using Guid(5d6f2c57eeb5f754dbaf5f25c9d986d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1848e5c8947d5defc036d48ecfebf97') in 0.007854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209747 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/Parallax Scene 2.prefab
+  artifactKey: Guid(ee3c2e5212908ff4ba962f616424dc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/Parallax Scene 2.prefab using Guid(ee3c2e5212908ff4ba962f616424dc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258218decb1dfd4304572f56b8915572') in 0.030420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616127 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX
+  artifactKey: Guid(2ba55409c062f8c46bfaa72046012481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX using Guid(2ba55409c062f8c46bfaa72046012481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346699fb59f4218ae32bb16db1301293') in 0.001031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057152 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_01_1920 x 1080.png
+  artifactKey: Guid(5dcfb6a8f233beb4c8c1b0702bce4884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 2/PARALLAX/layer_01_1920 x 1080.png using Guid(5dcfb6a8f233beb4c8c1b0702bce4884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e2d99f50b017cbc6f0aade4d8a103') in 0.163502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.681736 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3
+  artifactKey: Guid(8a9bb821ed9727a458c596c567dc6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3 using Guid(8a9bb821ed9727a458c596c567dc6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10d2e492ab75d6d3a8ba2b8c45d7cce') in 0.001090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046446 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/Parallax Scene 3.prefab
+  artifactKey: Guid(d7bb4ae77f385844686f664cf51c4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/Parallax Scene 3.prefab using Guid(d7bb4ae77f385844686f664cf51c4444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ed9f77aec7ec4cf165d48ae33ae26') in 0.004655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.639738 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080
+  artifactKey: Guid(3c35307a7a2b77d4ab4228e558f50708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080 using Guid(3c35307a7a2b77d4ab4228e558f50708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d40716c2b35a3547294ec422c7731d') in 0.001048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078369 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_01_1920 x 1080.png
+  artifactKey: Guid(52e359bed8664624ca978b32d3984e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_01_1920 x 1080.png using Guid(52e359bed8664624ca978b32d3984e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdef2078c47c7ae44ed14368194a9639') in 0.110976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_05_1920 x 1080.png
+  artifactKey: Guid(d10ba954054144146a5916fc85d9bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 3/1920x1080/layer_05_1920 x 1080.png using Guid(d10ba954054144146a5916fc85d9bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817e4d9ce7887d68bbf450361840b257') in 0.085050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.346293 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax
+  artifactKey: Guid(bd709bb26909b084887ad0f967660a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax using Guid(bd709bb26909b084887ad0f967660a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07088c91d339f21631d28f8942b4388') in 0.001048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.529698 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background
+  artifactKey: Guid(eb8a0d88fd0f5a6418b47938c4877315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background using Guid(eb8a0d88fd0f5a6418b47938c4877315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e01a9fbfc391bb2b56cc03eab2a207') in 0.000929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247185 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background/Background.prefab
+  artifactKey: Guid(8ddb9b2166de43d4d85c46d920c4cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background/Background.prefab using Guid(8ddb9b2166de43d4d85c46d920c4cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02255a3165cea7d1be137265d92a0fa9') in 0.004270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.570084 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 2/background1-720.png
+  artifactKey: Guid(72a92735a927cd143838d3820ae25f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds/bck 2/background1-720.png using Guid(72a92735a927cd143838d3820ae25f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a4105eaf89f91969cd7b3ba94bd93c') in 0.093213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_05_1920 x 1080.png
+  artifactKey: Guid(f7181ba4e04f8ac48a683dbfd862785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_05_1920 x 1080.png using Guid(f7181ba4e04f8ac48a683dbfd862785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907f28a2d5a996fd746b74f2a883ab8') in 0.107118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_06_1920 x 1080.png
+  artifactKey: Guid(18e6d25cb2ce69440915eb6f38ee2104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Backgrounds Parallax/Bck 4/PARALLAX/layer_06_1920 x 1080.png using Guid(18e6d25cb2ce69440915eb6f38ee2104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb93205a845b2affb92580a1c2f17387') in 0.090195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-foreground-trees.png
+  artifactKey: Guid(11c19bb7e4346c241ba10b846bce2959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main menu with parallax FREE/Assets/Demo Assets/Main Background Parallax/parallax-mountain-foreground-trees.png using Guid(11c19bb7e4346c241ba10b846bce2959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a8cf49c51d2d5579bf131c2802d2e3') in 0.014261 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
